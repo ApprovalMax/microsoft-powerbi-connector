@@ -24,7 +24,8 @@ shared ApprovalMaxConnector.Contents = (url as text) =>
 // OAuth2 scope
 scope_prefix = "";
 scopes = {
-    "https://www.approvalmax.com/scopes/public_api",
+    "https://www.approvalmax.com/scopes/public_api/read",
+	"https://www.approvalmax.com/scopes/public_api/write",
     "offline_access"
 };
 
